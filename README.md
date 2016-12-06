@@ -1,8 +1,7 @@
 # Self-animating-images
-## Illusory Motion Using Repeated Asymmetric Patterns Code
+### Illusory Motion Using Repeated Asymmetric Patterns Code
 
-![alt Karman vortex street](hhttps://github.com/lhufnagel/Self-animating-images/example2.png "Karman vortex street")
-
+![Karman vortex street](example2.png)
 
 A little project to create optical illusions of moving images from arbitrary vector fields (e.g. fluid flow).
 Presented in a computer graphics seminar in summer '15.
@@ -22,11 +21,14 @@ Then run
 		 <Streamline-Distance>
 		 <RAP-Length>
 		 <RAP-width>
-		<vector-file>```
+		<vector-file>
+```
 or only `./code <vector-file>`
 
 Example input-files are in subdirectory `vector_fields`. 
-Use `asy *.asy` to render output images
+Use `asy *.asy` to render output images.
 
-![alt Arbitrary vector field](hhttps://github.com/lhufnagel/Self-animating-images/example.png "Arbitrary vector field")
+![alt Arbitrary vector field](example.png)
 
+### Todo
+* Implement the length variation of RAPs in order to maximize contrast between streamlines
