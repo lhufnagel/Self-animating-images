@@ -17,16 +17,21 @@ Compile code with:
 make```
 
 Then run
-```./code
-		 <Streamline-Distance>
-		 <RAP-Length>
-		 <RAP-width>
-		<vector-file>
+```
+./code
+   <Streamline-Distance>
+   <RAP-Length>
+   <RAP-width>
+   <vector-file>
 ```
 or only `./code <vector-file>`
 
 Example input-files are in subdirectory `vector_fields`. 
-Use `asy *.asy` to render output images.
+Use 
+```
+asy *.asy
+```
+to render output images.
 
 ![alt Arbitrary vector field](example.png)
 
