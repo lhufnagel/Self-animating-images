@@ -12,9 +12,11 @@ Presented in a computer graphics seminar in summer '15.
 
 ### Usage
 Compile code with:
-```ccmake .
+```
+ccmake .
 [Press c twice, possibly you need to adapt the path to CGAL. Then press g] 
-make```
+make
+```
 
 Then run
 ```
@@ -33,7 +35,7 @@ asy *.asy
 ```
 to render output images.
 
-![alt Arbitrary vector field](example.png)
+![Arbitrary vector field](example.png)
 
 ### Todo
 * Implement the length variation of RAPs in order to maximize contrast between streamlines
