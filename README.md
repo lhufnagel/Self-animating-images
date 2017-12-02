@@ -1,10 +1,10 @@
 # Self-animating-images
 ### Illusory Motion Using Repeated Asymmetric Patterns Code
 
-![Karman vortex street](example2.png)
+![Arbitrary vector field](example.png)
 
 A little project to create optical illusions of moving images from arbitrary vector fields (e.g. fluid flow).
-Presented in a computer graphics seminar in summer '15.
+Presented in a computer graphics seminar in summer '15. Based on the work by [Chi et al.](http://graphics.csie.ncku.edu.tw/SAI/)
 
 ### Requirements:
 * [CGAL library](https://www.cgal.org/)
@@ -35,7 +35,7 @@ asy *.asy
 ```
 to render output images.
 
-![Arbitrary vector field](example.png)
+![Karman vortex street](example2.png)
 
 ### Todo
 * Implement the length variation of RAPs in order to maximize contrast between streamlines
